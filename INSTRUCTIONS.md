@@ -84,21 +84,27 @@ $$
 where $E^{vac}$ is the molecule's energy in vacuum, which is the sum of internal contributions (bond and angle stretching, dihedral angles interactions) and van der Waals energy terms. $G^{np}$ is the non-polar solvation contribution, i.e., the free energy of solvation for a molecule from which all charges have been removed. $G^{el}$ is the electrostatic part, calculated as the free energy for turning on the partial charges in solution. This approach has been developed to describe (implicitly) the solvation of a protein in pure water, at ambient temperature (298 K) and pressure (1 atm).
 
 The idea behind the SASA module is the addition of a free energy of transfer term $G^{tr}(T,P,c)$:
+
 $$
  G^{tot}= E^{vac}+G^{np}+G^{el}+G^{tr}(T,P,c)
 $$
+
 that describes the transfer of the protein to any given temperature $T$, pressure $P$ and concentration $c$ of an osmolyte.
 
 The free energy of transfer term has the following functional form:
+
 $$
  G^{tr} = \sum_{j=1}^{n} g^{tr}_{j,sc} \alpha_{j,sc} +g^{tr}_{bb}\sum_{j=1}^{n} \alpha_{j, bb}
 $$
+
 where $n$ is the number of residues in the protein and the global transfer free energy is obtained by summing the contributions given by the amino acid side chains ($g^{tr}_{j, sc}$) and by the peptide backbone ($g^{tr}_{bb}$).
 
 Each contribution is weighed by the fractional solvent accessible surface area $SASA_{j}$ of residue $j$,
+
 $$
 \alpha_{j}=\frac{SASA_{j}}{SASA_{j, Gly-X-Gly}}
 $$
+
 where $SASA_{j, Gly-X-Gly}$ is the solvent accessibility of amino acid X in the tripeptide Gly-X-Gly, and X is the amino acid residue type $j$. 
 
 The amino acid side chains ($g^{tr}_{j, sc}$) and peptide backbone ($g^{tr}_{bb}$) contributions to the transfer free energy are computed according to the mathematical derivation described in the papers above. 
