@@ -314,7 +314,7 @@ Does the protein fold? If yes, how fast is the process? Do you think the process
 
 Here is the evolution of the helical content of $(AAQAA)\_3$ over time during the simulation:
 
-![Evolution of helical content over time during the simulation of exercise 1](masterclass-22-13-tvsalpha.png)
+![Evolution of helical content over time during the simulation of exercise 1](figs\masterclass-22-13-tvsalpha.png)
 
 You can also use the script_rg_alpha.bash file provided to have a 2D representation of the conformational space explored by the protein during the simulation. Just type:
 
@@ -325,7 +325,7 @@ chmod +x script_rg_alpha.bash
 
 The script generates a file called normFEL.dat that can be visualized in gnuplot using the picture_rg_alpha.gnu script provided. You should obtain something similar to:
 
-![Free energy surface showing radius of gyration and helical content of the protein during the simulation of exercise 1](masterclass-22-13-FES_rg_alpha.png)
+![Free energy surface showing radius of gyration and helical content of the protein during the simulation of exercise 1](figs\masterclass-22-13-FES_rg_alpha.png)
 
 ## Exercises 2-5: Introducing the free energy of transfer contribution to implicit solvent simulations
 
