@@ -325,7 +325,7 @@ chmod +x script_rg_alpha.bash
 
 The script generates a file called normFEL.dat that can be visualized in gnuplot using the picture_rg_alpha.gnu script provided. You should obtain something similar to:
 
-[Free energy surface showing radius of gyration and helical content of the protein during the simulation of exercise 1](figs7masterclass-22-13-FES_rg_alpha.png)
+[Free energy surface showing radius of gyration and helical content of the protein during the simulation of exercise 1](figs/masterclass-22-13-FES_rg_alpha.png)
 
 ## Exercises 2-5: Introducing the free energy of transfer contribution to implicit solvent simulations
 
