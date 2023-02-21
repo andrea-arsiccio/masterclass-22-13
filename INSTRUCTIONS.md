@@ -118,7 +118,7 @@ Finally, the transfer free energy contributions as function of osmolyte type/con
 
 The interested user is invited to read the original works on this topic, which are included in the graph illustrating this tutorial, for a better understanding of the theory behind the free energy of transfer contributions.
 
-When the TRANSFER keyword is used, a file with the free energy of transfer values for the sidechains ($g^{tr}_{j, sc}$) and backbone ($g^{tr}_{bb}$) atoms should be provided (using the keyword DELTAGFILE). Such file should have the following format:
+When the TRANSFER keyword is used, a file with the free energy of transfer values ($g^{tr}$) for the sidechains and backbone atoms should be provided (using the keyword DELTAGFILE). Such file should have the following format:
 
 ```
 
