@@ -183,8 +183,8 @@ We will perform the simulations in implicit solvent, using the AMBER ff03 force 
 For this tutorial, the following conditions will be explored:
 
 1. 298 K, 1 bar, 0 M
-2. 228 K (approach 2 in \cite Arsiccio-T-SASA-2021), 1 bar, 0 M
-3. 348 K (approach 2 in \cite Arsiccio-T-SASA-2021), 1 bar, 0 M
+2. 228 K (approach 2 in [this paper](https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.1c01694)), 1 bar, 0 M
+3. 348 K (approach 2 in [this paper](https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.1c01694)), 1 bar, 0 M
 4. 298 K, 1 bar, 10 M urea
 5. 298 K, 3 kbar, 0 M
 
