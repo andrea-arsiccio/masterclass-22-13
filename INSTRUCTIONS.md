@@ -97,7 +97,7 @@ $$
  G^{tr} = \sum_{j=1}^{n} g^{tr}_{j,sc} \alpha_{j,sc} +g^{tr}_{bb}\sum_{j=1}^{n} \alpha_{j, bb}
 $$
 
-where $n$ is the number of residues in the protein and the global transfer free energy is obtained by summing the contributions given by the amino acid side chains $g^{tr}_{j, sc}$ and by the peptide backbone $g^{tr}_{bb}$.
+where $n$ is the number of residues in the protein and the global transfer free energy is obtained by summing the contributions ($g^{tr}$) given by the amino acid side chains (subscript sc) and by the peptide backbone (subscript bb).
 
 Each contribution is weighed by the fractional solvent accessible surface area $SASA_{j}$ of residue $j$,
 
@@ -107,7 +107,7 @@ $$
 
 where $SASA_{j, Gly-X-Gly}$ is the solvent accessibility of amino acid X in the tripeptide Gly-X-Gly, and X is the amino acid residue type $j$. 
 
-The amino acid side chains ($g^{tr}_{j, sc}$) and peptide backbone ($g^{tr}_{bb}$) contributions to the transfer free energy are computed according to the mathematical derivation described in the papers above. 
+The amino acid side chains and peptide backbone contributions to the transfer free energy are computed according to the mathematical derivation described in the papers above. 
 
 Briefly, the tranfer free energy contributions describing the effect of temperatures have been derived by downloading a large set of Protein Data Bank (pdb) files resolved by nuclear magnetic resonance at different temperatures, and by computing the probability of different side chains/backbone groups to be surface exposed at different temperatures. 
 The relation between energy and probability has then been exploited to compute the free energy of transfer contributions as a function of temperature.
