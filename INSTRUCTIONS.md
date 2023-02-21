@@ -97,7 +97,7 @@ $$
  G^{tr} = \sum_{j=1}^{n} g^{tr}_{j,sc} \alpha_{j,sc} +g^{tr}_{bb}\sum_{j=1}^{n} \alpha_{j, bb}
 $$
 
-where $n$ is the number of residues in the protein and the global transfer free energy is obtained by summing the contributions given by the amino acid side chains ($g^{tr}_{j, sc}$) and by the peptide backbone ($g^{tr}_{bb}$).
+where $n$ is the number of residues in the protein and the global transfer free energy is obtained by summing the contributions given by the amino acid side chains $(g^{tr}_{j, sc})$ and by the peptide backbone $(g^{tr}_{bb})$.
 
 Each contribution is weighed by the fractional solvent accessible surface area $SASA_{j}$ of residue $j$,
 
