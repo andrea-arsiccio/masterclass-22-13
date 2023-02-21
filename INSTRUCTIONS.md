@@ -173,7 +173,7 @@ PRINT ARG=sasa,bias.* STRIDE=1 FILE=colvar
 
 ## The system: Refolding of a model peptide
 
-For this tutorial we will work on a model peptide called (AAQAA)$\_3$. (AAQAA)$\_3$ is a short peptide with known $\alpha$-helix structure. 
+For this tutorial we will work on a model peptide called $(AAQAA)\_3$. $(AAQAA)\_3$ is a short peptide with known $\alpha$-helix structure. 
 We will simulate this peptide starting from an unfolded conformation, and we will see in which conditions (of temperature, pressure, and solution composition) it folds back to a $\alpha$-helix, and which conditions promote instead an unfolded conformation.
 
 ![Starting (unfolded) conformation of the model peptide used for the simulations](masterclass-22-13-aaqaa_min.png)
