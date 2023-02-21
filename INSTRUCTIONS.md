@@ -294,10 +294,10 @@ PRINT ...
 ```
 
 We are providing PLUMED with a protein structure (aaqaa_min.pdb) in input using the MOLINFO keyword. We are then computing the radius of gyration, parallel/antiparallel beta-sheet content and alpha-helix content of the protein, and we are printing this info to a file called COLVAR every 1000 integration steps. 
-(AAQAA)$\_3$ should fold as a alpha-helix, but we are monitoring also the parallel/antiparallel beta-sheet content in order to identify potential cases of misfolding.
+$(AAQAA)\_3$ should fold as a alpha-helix, but we are monitoring also the parallel/antiparallel beta-sheet content in order to identify potential cases of misfolding.
 
 
-In this first example, we are simulating (AAQAA)$\_3$ in pure water at 298 K and ambient pressure, so we do not need to add the free energy of transfer term $G^{tr}(T,P,c)$, and the SASA module is not even called in the PLUMED file. 
+In this first example, we are simulating $(AAQAA)\_3$ in pure water at 298 K and ambient pressure, so we do not need to add the free energy of transfer term $G^{tr}(T,P,c)$, and the SASA module is not even called in the PLUMED file. 
 However, for exercises 2-5, you will need to use the SASA module to include the effect of temperature/pressure/urea concentration on protein stability.
 
 To run the simulation, just type the command:
@@ -312,7 +312,7 @@ At the end of the simulation, you will have a COLVAR file that lists the evoluti
 
 Does the protein fold? If yes, how fast is the process? Do you think the process would be equally fast in explicit solvent?
 
-Here is the evolution of the helical content of (AAQAA)$\_3$ over time during the simulation:
+Here is the evolution of the helical content of $(AAQAA)\_3$ over time during the simulation:
 
 ![Evolution of helical content over time during the simulation of exercise 1](masterclass-22-13-tvsalpha.png)
 
