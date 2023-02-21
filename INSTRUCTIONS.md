@@ -222,9 +222,13 @@ git clone https://github.com/andrea-arsiccio/masterclass-22-13
 In order to perform exercise 1, cd to the folder SASA_module/01_298K. There you will find a number of files:
 
 -aaqaa.prmtop: a topology file of the protein, described according to the AMBER ff03 force field.
+
 -AAQAA_298.in: an input file for running the simulation through AMBER. I will go more in detail over this file in the following.
+
 -aaqaa_min.ncrst/aaqaa_min.pdb: configuration files for the (unfolded) protein, which we will use as starting point for our simulations.
+
 -histograms.py/picture_rg_alpha.gnu/script_rg_alpha.bash: files that we will use for the analyses and postprocessing of our trajectories.
+
 -plumed.dat: PLUMED input file. I will go more in detail over this in the following.
  
 The AAQAA_298.in file is an input AMBER file for carrying out our implicit solvent simulation, and it has the following aspect:
