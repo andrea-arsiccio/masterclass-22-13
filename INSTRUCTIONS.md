@@ -176,7 +176,7 @@ PRINT ARG=sasa,bias.* STRIDE=1 FILE=colvar
 For this tutorial we will work on a model peptide called $(AAQAA)\_3$. $(AAQAA)\_3$ is a short peptide with known $\alpha$-helix structure. 
 We will simulate this peptide starting from an unfolded conformation, and we will see in which conditions (of temperature, pressure, and solution composition) it folds back to a $\alpha$-helix, and which conditions promote instead an unfolded conformation.
 
-![Starting (unfolded) conformation of the model peptide used for the simulations](masterclass-22-13-aaqaa_min.png)
+![Starting (unfolded) conformation of the model peptide used for the simulations](figs/masterclass-22-13-aaqaa_min.png)
  
 We will perform the simulations in implicit solvent, using the AMBER ff03 force field.
  
