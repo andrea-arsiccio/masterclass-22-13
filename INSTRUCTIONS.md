@@ -76,9 +76,11 @@ In implicit solvent simulations, the solvent is not any more described at atomis
 The degree of accuracy can be improved by using the concept of free energy of transfer, which is at the basis of the SASA module.
 
 The common implementation of implicit solvent simulations relies on the computation of the free energy of a protein as the sum of three contributions:
+
 $$ 
 G^{tot}= E^{vac}+G^{np}+G^{el}
 $$
+
 where $E^{vac}$ is the molecule's energy in vacuum, which is the sum of internal contributions (bond and angle stretching, dihedral angles interactions) and van der Waals energy terms. $G^{np}$ is the non-polar solvation contribution, i.e., the free energy of solvation for a molecule from which all charges have been removed. $G^{el}$ is the electrostatic part, calculated as the free energy for turning on the partial charges in solution. This approach has been developed to describe (implicitly) the solvation of a protein in pure water, at ambient temperature (298 K) and pressure (1 atm).
 
 The idea behind the SASA module is the addition of a free energy of transfer term $G^{tr}(T,P,c)$:
